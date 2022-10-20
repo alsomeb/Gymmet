@@ -24,7 +24,7 @@ class GymFileReaderTest {
 
         // testar att det är 14 kunder som vi vet att det skall vara
         assertEquals(customersExpected, allCustomers.size());
-        assertNotEquals(13, allCustomers.size());
+        assertNotEquals(0, allCustomers.size()); // listan ej tom
 
         // testar att det är en lista av typen Customer som skickas tillbaka vilket vi förväntar oss
         assertEquals("Customer", allCustomers.get(0).getClass().getSimpleName());
