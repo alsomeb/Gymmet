@@ -51,7 +51,7 @@ public class GymApp {
                     TerminalColor.message(ColorPicker.BLUE, "\nClosing program");
                     System.exit(0);
                 }
-                default -> TerminalColor.message(ColorPicker.RED, "Håll dig mellan alternativ 1-3");
+                default -> TerminalColor.message(ColorPicker.RED, "Håll dig mellan alternativ 0-2");
             }
         }
     }
